@@ -1,6 +1,6 @@
 
 require(plyr)
-## setwd("~/R/project-data")
+setwd("~/R/project-data")
 
 ## Step 1. Merge test and training data sets
 
@@ -65,8 +65,8 @@ mean_variable <- ddply(cleanData, c("subject","activity"), numcolwise(mean))
 
 write.table(mean_variable, file="tidy_data_with_means.txt")
 
-mean_variable <- read.table("./tidy_data_with_means.txt", header = TRUE)
-View(mean_variable)
+## mean_variable <- read.table("./tidy_data_with_means.txt", header = TRUE)
+## View(mean_variable)
 
 
 
