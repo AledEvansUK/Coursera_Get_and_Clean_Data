@@ -1,4 +1,4 @@
-## CodeBook for "Getting and Cleanin Data Project" ##
+## CodeBook for "Getting and Cleaning Data Project" ##
 
 ## Data Sources ##
 
@@ -14,7 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 "run_analysis.R" - this r script cleans the data by performing these tasks:
 
-1 - loads 'plyr' package  for use in Step 5 (see points 12 and 13 below) 
+1 - loads 'plyr' package  for use in Step 5 (see tasks 12 and 13 below) 
 
 
 ## step 1 ##
